@@ -1,2 +1,2 @@
-# onlinecollection
-React project for self learning
+# Mycollection
+React project for an ecommerce platform
