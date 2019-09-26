@@ -4,7 +4,7 @@ import {Switch,Route} from 'react-router-dom'
 import {Shop} from './pages/shop/shop.component'
 import {Homepage} from './pages/homepage/homepage.component'
 import {Header} from './components/header/header.component'
-
+import {SignInAndSignUpPage} from './pages/signInAndSignUpPage/SignInAndSignUpPage.component'
 class App extends React.Component{
   constructor(){
     super();
@@ -17,6 +17,7 @@ render(){
           <Switch>
             <Route path='/' exact={true} component={Homepage}/>
             <Route path='/shop' exact={true} component={Shop}/>
+            <Route path='/account' exact={true} component={SignInAndSignUpPage}/>
            </Switch>
          </div>
          }
