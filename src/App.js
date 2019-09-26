@@ -16,7 +16,7 @@ render(){
           <Header />
           <Switch>
             <Route path='/' exact={true} component={Homepage}/>
-            <Route path='/' exact={true} component={Shop}/>
+            <Route path='/shop' exact={true} component={Shop}/>
            </Switch>
          </div>
          }
