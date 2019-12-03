@@ -1,2 +1,2 @@
 # Mycollection
-React project for an ecommerce platform
+Ecommerce project using react,redux
